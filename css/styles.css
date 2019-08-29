@@ -1,0 +1,145 @@
+li{
+  list-style-type: none;
+}
+
+a, a:hover{
+  text-decoration: none;
+  color:inherit;
+}
+
+.titles{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.paragraphs{
+font-family: 'Lato', sans-serif;
+}
+
+.background-blue{
+background-color: #2C3E50;
+}
+
+.background-green{
+background-color: #18BC9C;
+}
+
+.bluetext{
+  color:#2C3E50;
+}
+
+.greentext{
+  color:#18BC9C;
+}
+
+#header {
+  height: 15vh;
+}
+
+#header h2{
+  font-size: 20px;
+}
+
+#nav{
+font-size: 12px;
+display: none;
+}
+
+.background-green h1{
+  font-size: 50px;
+  line-height: 50px;
+}
+
+#btn-menu{
+font-size: 12px;
+}
+
+#menu-icon {
+font-size: 16px;
+position:relative;
+top:3px;
+}
+
+#location h3{
+font-size: 18px;
+}
+
+.icon-redes{
+font-size:20px;
+}
+
+.line-green{
+background-color: #fff;
+height: 4px;
+width: 150px;
+margin: 0 auto;
+}
+
+.star-line-green{
+  background-color: #18BC9C;
+  position:relative;
+  bottom:13px;
+  z-index: 1;
+}
+
+.line-blue{
+background-color: #2C3E50;
+height: 4px;
+width: 150px;
+margin: 0 auto;
+}
+
+.star-line-blue{
+  background-color: #fff;
+  position:relative;
+  bottom:13px;
+  z-index: 1;
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1200px) {
+  #btn-menu{
+  display:none;
+  }
+
+#nav{
+  display: block;
+    }
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+
+}
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media screen and (max-width: 575px) {
+
+}
